@@ -1,0 +1,11 @@
+#div1, #div2, #div3 {
+    display: inline;
+    width: 250px;
+    height: 350px;
+    background-color: black;
+    border-color: yellow;
+    border-width: 10px;
+    padding-bottom: 350px;
+    padding-right: 250px;
+    margin: 20px;
+}
