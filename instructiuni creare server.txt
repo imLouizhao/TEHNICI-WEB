@@ -1,0 +1,6 @@
+1. Creare folder
+2. cd pe folderul creat
+3. npm init
+4. npm start server
+5. npm i cors
+6. npm start server
