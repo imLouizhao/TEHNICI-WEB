@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#magicball {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: white;
+    border: 45px solid black;
+    color: black;
+    display: flex; 
+    justify-content: center;    /* pe orizontala */
+    align-items: center;    /* pe verticala */
+    font-size: 60px;
+    border-radius: 50%;
+}
