@@ -1,0 +1,55 @@
+#wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 150px;
+}
+
+.EFG {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr;
+}
+
+.FG {
+    display: flex;
+    gap: 10px;
+}
+
+.F,
+.G {
+    flex: 1;
+}
+
+.A,
+.B,
+.C,
+.EFG,
+.E,
+.F,
+.G {
+    padding: 20px;
+}
+
+.A,
+.B,
+.C,
+.EFG {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.E,
+.F,
+.G {
+    background-color: pink;
+    color: black;
+}
+/* Scrieți un media query pentru ferestre cu lățimea între 200px și 6oopx astfel încât divurile A, B, C, D să nu mai fie afișate cu layoutul de mai sus, ci în formatul default, */
+@media (min-width: 200px) and (max-width: 600px) {
+    #wrapper {
+        grid-template-columns: 1fr;
+    }
+}
