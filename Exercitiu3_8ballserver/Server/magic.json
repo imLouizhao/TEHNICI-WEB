@@ -1,0 +1,26 @@
+[
+    {
+        "answer": "Concentrate and ask again",
+        "type": "other"
+    },
+    {
+        "answer": "Good job!",
+        "type": "positive"
+    },
+    {
+        "answer": "Bad job!",
+        "type": "negative"
+    },
+    {
+        "answer": "Try again!",
+        "type": "other"
+    },
+    {
+        "answer": "Well done!",
+        "type": "positive"
+    },
+    {
+        "answer": "Not good enough!",
+        "type": "negative"
+    }
+]
